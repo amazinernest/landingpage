@@ -210,5 +210,10 @@ footer h6 {
   }
   
   .featuredSection p{
-    padding: 2rem;
+    padding: 1rem;
+    
+    .chairCollection h4, h3, p, h6{
+      padding:1rem
 }
+  
+  
