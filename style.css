@@ -208,4 +208,7 @@ footer h6 {
     width: fit-content;
     padding-top: 4rem;
   }
+  
+  .featuredSection p{
+    padding: 2rem;
 }
