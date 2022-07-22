@@ -192,7 +192,14 @@ footer h6 {
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
-    padding:2rem;
+    padding: 1rem;
+  }
+
+  .chairCollection h4,
+  h3,
+  p,
+  h6 {
+    padding-left: 1rem;
   }
 
   .testimonialBox {
@@ -208,12 +215,4 @@ footer h6 {
     width: fit-content;
     padding-top: 4rem;
   }
-  
-  .featuredSection p{
-    padding: 1rem;
-    
-    .chairCollection h4, h3, p, h6{
-      padding:1rem
 }
-  
-  
