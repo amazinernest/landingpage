@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  background: rgb(229, 229, 229);
+  color: rgb(55, 55, 55);
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  padding: 7.7rem 0;
+}
+
+/*hero design*/
+
+h1 {
+  font-size: 3.16rem;
+  color: rgb(55, 55, 55);
+  text-align: center;
+  line-height: 3.72rem;
+  font-weight: 700;
+}
+
+.heroContainer p {
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 300;
+  line-height: 2rem;
+  margin-top: 1.7rem;
+}
+
+.btnContainer {
+  text-align: center;
+}
+
+.btnContainer button {
+  background: #bdbdbd;
+  padding: 1.1rem;
+  border: none;
+  margin-top: 1.7rem;
+}
+
+.chairSection {
+  margin-top: 13.3rem;
+}
+
+.featuredSection h5 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.featuredSection h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.38rem;
+  margin-top: 1.3rem;
+}
+
+.featuredSection p {
+  font-size: 1rem;
+  padding-top: 1.7rem;
+  /* width: 35rem; */
+  line-height: 1.17rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.chairCollection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 3.5rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  gap: 3.5rem;
+}
+
+.chairCollection h4 {
+  font-weight: 100;
+  font-size: 2.38rem;
+  margin-top: 1.3rem;
+}
+
+.chairCollection h3 {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-top: 1.3rem;
+}
+
+.chairCollection p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 21.09px;
+  margin-top: 1.3rem;
+  width: 21rem;
+}
+
+.chairCollection h6 {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 1.3rem;
+}
+
+/*Testimonial*/
+
+.testimonialSection {
+  margin-top: 13.7rem;
+}
+
+.testimonialBox {
+  background: rgb(189, 189, 189);
+  width: 70.11rem;
+  height: 22.94rem;
+  margin: 0 auto;
+  padding: 128px 350px;
+}
+
+.testimonialBox p {
+  font-weight: 400;
+  font-size: 1.3rem;
+  width: 35.5rem;
+  line-height: 1.56rem;
+}
+
+.btnWrapper {
+  margin-top: 1.7rem;
+  text-align: center;
+}
+
+.btnWrapper button {
+  padding: 24px;
+  background: rgb(0, 0, 0);
+  border: none;
+  color: rgb(255, 255, 255);
+}
+
+footer {
+  margin-top: 13.3rem;
+}
+
+footer p {
+  text-align: center;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+footer h3 {
+  text-align: center;
+  font-size: 3.16rem;
+  margin-top: 1.6rem;
+  font-weight: 700;
+}
+
+footer h4 {
+  text-align: center;
+  font-size: 1.7rem;
+  margin-top: 1.6rem;
+  font-weight: 300;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  margin-top: 7.61rem;
+  gap: 2.78rem;
+}
+
+footer h6 {
+  margin-top: 13.3rem;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+/* media queries */
+
+@media screen and (max-width: 768px) {
+  .chairCollection {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+
+  .testimonialBox {
+    width: 100%;
+    height: 22.94rem;
+    margin: 0 auto;
+    padding: 3rem;
+  }
+
+  .testimonialBox p {
+    text-align: center;
+    font-size: 1rem;
+    width: fit-content;
+    padding-top: 4rem;
+  }
+}
